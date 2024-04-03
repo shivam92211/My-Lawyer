@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
-  const text = "Say Hello";
+  const text = "Join MyLawyer";
 
   const form = useRef();
 
@@ -67,25 +67,25 @@ const ContactPage = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Dear Lama Dev,</span>
+          <span>Enter Your Full Name</span>
           <textarea
             rows={6}
             className="bg-transparent border-b-2 border-b-black outline-none resize-none"
             name="user_message"
           />
-          <span>My mail address is:</span>
+          <span>Enter Email address</span>
           <input
             name="user_email"
             type="text"
             className="bg-transparent border-b-2 border-b-black outline-none"
           />
-          <span>Regards</span>
+          <span>Register</span>
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
-            Send
+            Submit
           </button>
           {success && (
             <span className="text-green-600 font-semibold">
-              Your message has been sent successfully!
+              Your have register successfully!
             </span>
           )}
           {error && (
