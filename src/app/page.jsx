@@ -27,7 +27,7 @@ const Homepage = () => {
             where we understand that navigating legal matters can be daunting, 
             especially in the aftermath of a crime or illegal activity. 
             Our mission is simple: to provide you with expert guidance and 
-            support when you need it most. Whether you're facing complex legal
+            support when you need it most. Whether you are facing complex legal
             issues or simply seeking advice on the next steps to take,
             our team of experienced lawyers is here to help you navigate
             through the legal process with confidence and clarity. 
