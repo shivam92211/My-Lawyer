@@ -13,8 +13,8 @@ const Hero = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 md:justify-between">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative lg:mr-8 mb-24">
-          <Image src="/balance.png" alt="" fill className="object-contain" />
+        <div className="h-1/2 lg:h-full lg:w-1/2 relative lg:mr-8 mb-24 rounded-lg">
+          <Image src="/sat2.jpeg" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">

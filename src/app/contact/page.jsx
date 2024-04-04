@@ -58,7 +58,7 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            😊
+            
           </div>
         </div>
         {/* FORM CONTAINER */}
@@ -79,9 +79,15 @@ const ContactPage = () => {
             type="text"
             className="bg-transparent border-b-2 border-b-black outline-none"
           />
-          <span>Register</span>
+          <span>Password</span>
+          <input
+            name="user_pass"
+            type="text"
+            className="bg-transparent border-b-2 border-b-black outline-none"
+          />
+          {/* <span>Register</span> */}
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
-            Submit
+            Sing Up
           </button>
           {success && (
             <span className="text-green-600 font-semibold">
