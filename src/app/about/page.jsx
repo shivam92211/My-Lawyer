@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/Footer";
 import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
@@ -112,6 +113,7 @@ const AboutPage = () => {
           <Brain scrollYProgress={scrollYProgress} />
         </div>
       </div>
+      <Footer/>
     </motion.div>
   );
 };

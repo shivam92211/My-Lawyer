@@ -56,6 +56,8 @@
 // export default Homepage;
 
 
+import Filter from '@/components/Filter'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import React from 'react'
 
@@ -63,6 +65,8 @@ const Home = () => {
   return (
     <>
     <Hero/>
+    <Filter/>
+    <Footer/>
     </>
   )
 }
