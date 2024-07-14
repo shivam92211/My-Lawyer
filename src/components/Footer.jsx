@@ -31,7 +31,7 @@ const Footer = () => {
             
             <div className="flex mb-4">
               <FaPhone size={20} style={{ color: "#000000", marginRight: "2rem" }} />
-              <h4>+91 96808 52664</h4>
+              <h4>+91 xxxx xxxx</h4>
             </div>
             
             <div className="flex ">

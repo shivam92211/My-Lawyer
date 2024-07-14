@@ -90,11 +90,5 @@ export const User = [
   "Designation": "1970-09-10",
   "Remarks": "Advocate"
  },
- {
-    "Num": 14,
-    "Name": "Miss Yukta Gupta",
-    "Address": "Mumbai, ",
-    "Designation": "1970-09-10",
-    "Remarks": "Senior Advocate"
-   }
+
 ]

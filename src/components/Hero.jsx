@@ -23,6 +23,7 @@ const Hero = () => {
             Welcome to My Lawyer
           </h1>
           {/* DESC */}
+          <p className="md:text-xl">This is the Demo website</p>
           <p className="md:text-xl">
             Our mission is simple, to provide you with the expert guidance and 
             support when you need it most. Whether you are facing complex legal
